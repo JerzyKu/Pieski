@@ -1,0 +1,92 @@
+table.game_table {
+	border-collapse: collapse;
+    margin: auto;
+    
+}
+
+#body {
+    background-image: url("https://www.perfectlygreen.co.uk/wp-content/uploads/2018/01/Maxus-View-copy-1.jpg");
+    
+    
+}
+
+#tytul {
+    text-align: center;
+    color: red;
+    font-size: 70px;
+    font-style: italic;
+    margin:auto;
+}
+
+#score{
+    text-align: center;
+    color: darkslategrey;
+    font-size: 30px;    
+    font-style: italic;
+}
+
+#score, #tytul{
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+#newgame{
+    text-align: center;
+}
+
+#guzik{
+    background-color: green; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+    
+    position: relative;
+    z-index: 1;
+    
+    left: auto;
+    right: auto;
+    
+    bottom: 250px; 
+    top: auto;
+}
+
+table.game_table, td, th {
+	border: 1px solid white;
+}
+
+#tabela {
+    margin: auto;
+    width: 454px;
+    transform:rotate(45deg); 
+    -webkit-transform:rotate(45deg); 
+    -moz-transform:rotate(45deg); 
+    -o-transform:rotate(45deg);
+    
+    z-index: 0;
+
+}
+
+img {
+	width: 100px;
+	height: 100px;
+    transform:rotate(0); 
+    -webkit-transform:rotate(0); 
+    -moz-transform:rotate(0); 
+    -o-transform:rotate(0);
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.selected {
+	opacity: 0.79;
+}
+
+.scored {
+	opacity: 1.0;
+}
